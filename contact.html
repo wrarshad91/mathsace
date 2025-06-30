@@ -1,5 +1,24 @@
 <!DOCTYPE html>
+<html lang = "en">
+
+<head>
+<title>Maths Ace - Free A-level Maths Revision</title>
+<meta charset="UTF-8">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>♠️</text></svg>">
+<meta name ="viewport" content = "width=device-width,initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content = "IE=edge">
+<meta name="description" content="Maths Ace is a free A-level Maths revision site. It has past papers, mark schemes, worked solutions and more.">
+<meta name="author" content="Maths Ace">
+</header>
 <style>
+#logo {
+  transition: opacity 0.3s ease;
+}
+
+#logo:hover {
+  content: url('logo-hover.png');
+}
+
 body {
     margin: 40px auto;
     max-width: 650px;
@@ -11,6 +30,26 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+/* unvisited link */
+a:link {
+  color: #2ecec2;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #2ecec2;
+}
+
+/* mouse over link */
+a:hover {
+  color:#ffb347;
+}
+
+/* selected link */
+a:active {
+  color: #2ecec2;
+}
 
 </style>
 
@@ -18,10 +57,10 @@ body {
 
 
 <div>
-    <a href="index.html"><img src="logo.png" width="270" height="100"></img></a>
-    <h2>Contact</h2>
+    <a href="index.html"><img id="logo" src="logo.png" width="270" height="100"></img></a>
+    <h2><a href="contact.html">Contact</a></h2>
         <p>If you have any feedback about the website or you are interested in online maths tutoring, please email me on
-            <a href="mailto:enquiries@mathsace.co.uk" style="text-decoration: none;color: #2ecec2;"><u>enquiries@mathsace.co.uk</u></a>
+            <a href="mailto:enquiries@mathsace.co.uk"><u>enquiries@mathsace.co.uk</u></a>
     </p>
     <hr style="height:2px;color:black;background-color:#2ecec2"></hr>
 I look forward to hearing from you!
@@ -30,5 +69,5 @@ I look forward to hearing from you!
 </body>
 
 <div style="margin-top: 5%;">
-<a href="index.html" style="text-decoration: none;color: #2ecec2;"><u>Home</u></a> -> <a href="contact.html" style="text-decoration: none;color: #2ecec2;"><u>Contact</u></a>
+<a href="index.html"><u>Home</u></a> -> <a href="contact.html"><u>Contact</u></a>
 </div>

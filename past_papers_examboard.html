@@ -1,6 +1,24 @@
 <!DOCTYPE html>
+<html lang = "en">
+
+<head>
+<title>Maths Ace - Free A-level Maths Revision</title>
+<meta charset="UTF-8">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>♠️</text></svg>">
+<meta name ="viewport" content = "width=device-width,initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content = "IE=edge">
+<meta name="description" content="Maths Ace is a free A-level Maths revision site. It has past papers, mark schemes, worked solutions and more.">
+<meta name="author" content="Maths Ace">
+</header>
 <body>
 <style>
+    #logo {
+  transition: opacity 0.3s ease;
+}
+
+#logo:hover {
+  content: url('logo-hover.png');
+}
 body {
     margin: 40px auto;
     max-width: 650px;
@@ -12,23 +30,43 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+/* unvisited link */
+a:link {
+  color: #2ecec2;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #2ecec2;
+}
+
+/* mouse over link */
+a:hover {
+  color:#ffb347;
+}
+
+/* selected link */
+a:active {
+  color: #2ecec2;
+}
 
 </style>
 
 <div>
 
-    <a href="index.html"><img src="logo.png" width="270" height="100"></img></a>
-    <h2>Past Papers</h2>
+    <a href="index.html"><img id="logo" src="logo.png" width="270" height="100"></img></a>
+    <h2><a href="past_papers_examboard.html">Past Papers</a></h2>
         <p>Here you will find all new specification past papers for A-level Maths for AQA and EDEXCEL. I have included up to 2024
             and also practice papers provided by the exam board.
     </p>
     <hr style="height:2px;color:black;background-color:#2ecec2"></hr>
     <ul style="font-size:large;">
-        <li><a href="past_papers_aqa.html" style="text-decoration: none;color: #2ecec2;">AQA</a></li>
-        <li><a href="past_papers_edexcel.html" style="text-decoration: none;color: #2ecec2;">EDEXCEL</a></li>
+        <li><a href="past_papers_aqa.html">AQA</a></li>
+        <li><a href="past_papers_edexcel.html">EDEXCEL</a></li>
     </ul>
 </div>
 
 <div style="margin-top: 5%;">
-<a href="index.html" style="text-decoration: none;color: #2ecec2;"><u>Home</u></a> -> <a href="past_papers_examboard.html" style="text-decoration: none;color: #2ecec2;"><u>Past Papers</u></a>
+<a href="index.html"><u>Home</u></a> -> <a href="past_papers_examboard.html"><u>Past Papers</u></a>
 </div>

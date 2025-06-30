@@ -11,6 +11,13 @@
 <meta name="author" content="Maths Ace">
 </header>
 <style>
+    #logo {
+  transition: opacity 0.3s ease;
+}
+
+#logo:hover {
+  content: url('logo-hover.png');
+}
 body {
     margin: 40px auto;
     max-width: 650px;
@@ -22,6 +29,26 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+/* unvisited link */
+a:link {
+  color: #2ecec2;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #2ecec2;
+}
+
+/* mouse over link */
+a:hover {
+  color:#ffb347;
+}
+
+/* selected link */
+a:active {
+  color: #2ecec2;
+}
 
 </style>
 
@@ -29,8 +56,8 @@ body {
 
 
 <div>
-    <a href="index.html"><img src="logo.png" width="270" height="100"></img></a>
-    <h2>Video Games</h2>
+    <a href="index.html"><img id="logo" src="logo.png" width="270" height="100"></img></a>
+    <h2><a href="video_games.html">Video Games</a></h2>
         <p>
      Games I've played.
     </p>
@@ -66,5 +93,5 @@ I realise now they might be "forever games" because they keep coming up on platf
 </body>
 
 <div style="margin-top: 5%;">
-<a href="index.html" style="text-decoration: none;color: #2ecec2;"><u>Home</u></a> -> <a href="posts.html" style="text-decoration: none;color: #2ecec2;"><u>Posts</u></a>
+<a href="index.html"><u>Home</u></a> -> <a href="posts.html"><u>Posts</u></a> -> <a href="video_games.html"><u>Video Games</u></a>
 </div>

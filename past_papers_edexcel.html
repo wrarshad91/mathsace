@@ -1,6 +1,24 @@
 <!DOCTYPE html>
+<html lang = "en">
+
+<head>
+<title>Maths Ace - Free A-level Maths Revision</title>
+<meta charset="UTF-8">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>♠️</text></svg>">
+<meta name ="viewport" content = "width=device-width,initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content = "IE=edge">
+<meta name="description" content="Maths Ace is a free A-level Maths revision site. It has past papers, mark schemes, worked solutions and more.">
+<meta name="author" content="Maths Ace">
+</header>
 <body>
 <style>
+    #logo {
+  transition: opacity 0.3s ease;
+}
+
+#logo:hover {
+  content: url('logo-hover.png');
+}
 body {
     margin: 40px auto;
     max-width: 650px;
@@ -12,111 +30,131 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+/* unvisited link */
+a:link {
+  color: #2ecec2;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #2ecec2;
+}
+
+/* mouse over link */
+a:hover {
+  color:#ffb347;
+}
+
+/* selected link */
+a:active {
+  color: #2ecec2;
+}
 
 </style>
 
 <div>
 
-    <a href="index.html"><img src="logo.png" width="270" height="100"></img></a>
-    <h2>Past Papers</h2>
+    <a href="index.html"><img id="logo" src="logo.png" width="270" height="100"></img></a>
+    <h2><a href="past_papers_examboard.html">Past Papers</a></h2>
     <p>Here you will find all new specification past papers for A-level Maths for AQA and EDEXCEL. I have included up to 2024
             and also practice papers provided by the exam board.</p>
             <h2>EDEXCEL</h2>
     <hr style="height:2px;color:black;background-color:#2ecec2"></hr>
     <ul style="font-size:large;">
-        <li><a href="" style="text-decoration: none;color: #2ecec2;">2024</a></li>
+        <li><b>2024</b></li>
            <ul>
-                <li><a href="index.html" style="text-decoration: none;color: #2ecec2;">Paper 1</a></li>
-                <li><a href="index.html" style="text-decoration: none;color: #2ecec2;">Paper 2</a></li>
-                <li><a href="index.html" style="text-decoration: none;color: #2ecec2;">Paper 3</a></li>
+                <li><a href="Files/EDEXCEL/2024 Paper 1 .pdf">Paper 1</a></li>
+                <li><a href="Files/EDEXCEL/2024 Paper 2.pdf">Paper 2</a></li>
+                <li>Paper 3</li>
                 <ul>
-                    <li><a href="index.html" style="text-decoration: none;color: #2ecec2;">Mechanics</a></li>
-                    <li><a href="index.html" style="text-decoration: none;color: #2ecec2;">Statistics</a></li>
+                    <li><a href="Files/EDEXCEL/2024 Paper 3 Mechanics.pdf">Mechanics</a></li>
+                    <li><a href="Files/EDEXCEL/2024 Paper 3 Statistics.pdf">Statistics</a></li>
                 </ul>
             </ul>
-        <li><a href="" style="text-decoration: none;color: #2ecec2;">2023</a></li>
+        <li><b>2023</b></li>
             <ul>
-                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9ma0-01-que-20230607.pdf" style="text-decoration: none;color: #2ecec2;">Paper 1</a></li>
-                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9ma0-02-que-20230614.pdf" style="text-decoration: none;color: #2ecec2;">Paper 2</a></li>
+                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9ma0-01-que-20230607.pdf">Paper 1</a></li>
+                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9ma0-02-que-20230614.pdf">Paper 2</a></li>
                 <li><a href="" style="text-decoration: none;color: #2ecec2;">Paper 3</a></li>
                 <ul>
-                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9ma0-31-que-20230621.pdf" style="text-decoration: none;color: #2ecec2;">Mechanics</a></li>
-                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9ma0-32-que-20230621.pdf" style="text-decoration: none;color: #2ecec2;">Statistics</a></li>
+                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9ma0-31-que-20230621.pdf">Mechanics</a></li>
+                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9ma0-32-que-20230621.pdf">Statistics</a></li>
                 </ul>
             </ul>
-        <li><a href="" style="text-decoration: none;color: #2ecec2;">2022</a></li>
+        <li><b>2022</b></li>
             <ul>
-                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9ma0-01-que-20220608.pdf" style="text-decoration: none;color: #2ecec2;">Paper 1</a></li>
-                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9ma0-02-que-20220615.pdf" style="text-decoration: none;color: #2ecec2;">Paper 2</a></li>
+                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9ma0-01-que-20220608.pdf">Paper 1</a></li>
+                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9ma0-02-que-20220615.pdf">Paper 2</a></li>
                 <li><a href="" style="text-decoration: none;color: #2ecec2;">Paper 3</a></li>
                 <ul>
-                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9ma0-32-que-20220622.pdf" style="text-decoration: none;color: #2ecec2;">Mechanics</a></li>
-                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9ma0-31-que-20220622.pdf" style="text-decoration: none;color: #2ecec2;">Statistics</a></li>
+                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9ma0-32-que-20220622.pdf">Mechanics</a></li>
+                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9ma0-31-que-20220622.pdf">Statistics</a></li>
                 </ul>
             </ul>
-         <li><a href="" style="text-decoration: none;color: #2ecec2;">2021</a></li>
+         <li><b>2021</b></li>
           <ul>
-                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9MA0_01_que_20211007.pdf" style="text-decoration: none;color: #2ecec2;">Paper 1</a></li>
-                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9MA0_02_que_20211014.pdf" style="text-decoration: none;color: #2ecec2;">Paper 2</a></li>
+                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9MA0_01_que_20211007.pdf">Paper 1</a></li>
+                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9MA0_02_que_20211014.pdf">Paper 2</a></li>
                 <li><a href="" style="text-decoration: none;color: #2ecec2;">Paper 3</a></li>
                 <ul>
-                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9MA0_32_que_20211019.pdf" style="text-decoration: none;color: #2ecec2;">Mechanics</a></li>
-                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9MA0_31_que_20211019.pdf" style="text-decoration: none;color: #2ecec2;">Statistics</a></li>
+                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9MA0_32_que_20211019.pdf">Mechanics</a></li>
+                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9MA0_31_que_20211019.pdf">Statistics</a></li>
                 </ul>
             </ul>
-            <li><a href="" style="text-decoration: none;color: #2ecec2;">2020</a></li>
+            <li><b>2020</b></li>
           <ul>
-                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9MA0_01_que_20201008.pdf" style="text-decoration: none;color: #2ecec2;">Paper 1</a></li>
-                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9MA0_02_que_20201015.pdf" style="text-decoration: none;color: #2ecec2;">Paper 2</a></li>
+                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9MA0_01_que_20201008.pdf">Paper 1</a></li>
+                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9MA0_02_que_20201015.pdf">Paper 2</a></li>
                 <li><a href="" style="text-decoration: none;color: #2ecec2;">Paper 3</a></li>
                 <ul>
-                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9MA0_32_que_20201020.pdf" style="text-decoration: none;color: #2ecec2;">Mechanics</a></li>
-                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9ma0-31-que-20220622.pdf" style="text-decoration: none;color: #2ecec2;">Statistics</a></li>
+                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9MA0_32_que_20201020.pdf">Mechanics</a></li>
+                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9ma0-31-que-20220622.pdf">Statistics</a></li>
                 </ul>
             </ul>
-        <li><a href="" style="text-decoration: none;color: #2ecec2;">2019</a></li>
+        <li><b>2019</b></li>
            <ul>
-                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9MA0_01_que_20190606.pdf" style="text-decoration: none;color: #2ecec2;">Paper 1</a></li>
-                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9MA0_02_que_20190613.pdf" style="text-decoration: none;color: #2ecec2;">Paper 2</a></li>
+                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9MA0_01_que_20190606.pdf">Paper 1</a></li>
+                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9MA0_02_que_20190613.pdf">Paper 2</a></li>
                 <li><a href="" style="text-decoration: none;color: #2ecec2;">Paper 3</a></li>
                 <ul>
-                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9MA0_32_que_20190615.pdf" style="text-decoration: none;color: #2ecec2;">Mechanics</a></li>
-                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9MA0_31_que_20190615.pdf" style="text-decoration: none;color: #2ecec2;">Statistics</a></li>
+                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9MA0_32_que_20190615.pdf">Mechanics</a></li>
+                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9MA0_31_que_20190615.pdf">Statistics</a></li>
                 </ul>
             </ul>
-             <li><a href="" style="text-decoration: none;color: #2ecec2;">2018</a></li>
+             <li><b>2018</b></li>
           <ul>
-                <li><a href="https://colmanweb.co.uk/pastpapers/Papers/A%20Level/Edexcel/2018/Question_papers_and_Mark_schemes-9MA0-June_2018/Question%20Papers/9MA0_01%20Pure%20Mathematics%201.pdf" style="text-decoration: none;color: #2ecec2;">Paper 1</a></li>
-                <li><a href="https://colmanweb.co.uk/pastpapers/Papers/A%20Level/Edexcel/2018/Question_papers_and_Mark_schemes-9MA0-June_2018/Question%20Papers/9MA0_02%20Pure%20Mathematics%202.pdf" style="text-decoration: none;color: #2ecec2;">Paper 2</a></li>
+                <li><a href="https://colmanweb.co.uk/pastpapers/Papers/A%20Level/Edexcel/2018/Question_papers_and_Mark_schemes-9MA0-June_2018/Question%20Papers/9MA0_01%20Pure%20Mathematics%201.pdf">Paper 1</a></li>
+                <li><a href="https://colmanweb.co.uk/pastpapers/Papers/A%20Level/Edexcel/2018/Question_papers_and_Mark_schemes-9MA0-June_2018/Question%20Papers/9MA0_02%20Pure%20Mathematics%202.pdf">Paper 2</a></li>
                 <li><a href="" style="text-decoration: none;color: #2ecec2;">Paper 3</a></li>
                 <ul>
-                    <li><a href="https://colmanweb.co.uk/pastpapers/Papers/A%20Level/Edexcel/2018/Question_papers_and_Mark_schemes-9MA0-June_2018/Question%20Papers/9MA0_03%20Statistics%20and%20Mechanics.pdf" style="text-decoration: none;color: #2ecec2;">Mechanics</a></li>
-                    <li><a href="https://colmanweb.co.uk/pastpapers/Papers/A%20Level/Edexcel/2018/Question_papers_and_Mark_schemes-9MA0-June_2018/Question%20Papers/9MA0_03%20Statistics%20and%20Mechanics.pdf" style="text-decoration: none;color: #2ecec2;">Statistics</a></li>
+                    <li><a href="https://colmanweb.co.uk/pastpapers/Papers/A%20Level/Edexcel/2018/Question_papers_and_Mark_schemes-9MA0-June_2018/Question%20Papers/9MA0_03%20Statistics%20and%20Mechanics.pdf">Mechanics</a></li>
+                    <li><a href="https://colmanweb.co.uk/pastpapers/Papers/A%20Level/Edexcel/2018/Question_papers_and_Mark_schemes-9MA0-June_2018/Question%20Papers/9MA0_03%20Statistics%20and%20Mechanics.pdf">Statistics</a></li>
                 </ul>
             </ul>
-        <li><a href="" style="text-decoration: none;color: #2ecec2;">Spec</a></li>
+        <li><b>Specimen Paper</b></li>
           <ul>
-                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A%20Level/Mathematics/2017/specification-and-sample-assesment/a-level-l3-mathematics-sams.pdf#page=9" style="text-decoration: none;color: #2ecec2;">Paper 1</a></li>
-                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A%20Level/Mathematics/2017/specification-and-sample-assesment/a-level-l3-mathematics-sams.pdf#page=59" style="text-decoration: none;color: #2ecec2;">Paper 2</a></li>
+                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A%20Level/Mathematics/2017/specification-and-sample-assesment/a-level-l3-mathematics-sams.pdf#page=9">Paper 1</a></li>
+                <li><a href="https://qualifications.pearson.com/content/dam/pdf/A%20Level/Mathematics/2017/specification-and-sample-assesment/a-level-l3-mathematics-sams.pdf#page=59">Paper 2</a></li>
                 <li><a href="" style="text-decoration: none;color: #2ecec2;">Paper 3</a></li>
                 <ul>
-                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A%20Level/Mathematics/2017/specification-and-sample-assesment/a-level-l3-mathematics-sams.pdf#page=101" style="text-decoration: none;color: #2ecec2;">Mechanics</a></li>
-                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A%20Level/Mathematics/2017/specification-and-sample-assesment/a-level-l3-mathematics-sams.pdf#page=101" style="text-decoration: none;color: #2ecec2;">Statistics</a></li>
+                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A%20Level/Mathematics/2017/specification-and-sample-assesment/a-level-l3-mathematics-sams.pdf#page=101">Mechanics</a></li>
+                    <li><a href="https://qualifications.pearson.com/content/dam/pdf/A%20Level/Mathematics/2017/specification-and-sample-assesment/a-level-l3-mathematics-sams.pdf#page=101">Statistics</a></li>
                 </ul>
             </ul>
-        <li><a href="" style="text-decoration: none;color: #2ecec2;">Practice</a></li>
+        <li><b>Practice Paper Set 1</b></li>
              <ul>
-                <li><a href="index.html" style="text-decoration: none;color: #2ecec2;">Paper 1</a></li>
-                <li><a href="index.html" style="text-decoration: none;color: #2ecec2;">Paper 2</a></li>
-                <li><a href="index.html" style="text-decoration: none;color: #2ecec2;">Paper 3</a></li>
+                <li><a href="index.html">Paper 1</a></li>
+                <li><a href="index.html">Paper 2</a></li>
+                <li>Paper 3</li>
                 <ul>
-                    <li><a href="index.html" style="text-decoration: none;color: #2ecec2;">Mechanics</a></li>
-                    <li><a href="index.html" style="text-decoration: none;color: #2ecec2;">Statistics</a></li>
+                    <li><a href="index.html">Mechanics</a></li>
+                    <li><a href="index.html">Statistics</a></li>
                 </ul>
             </ul>
     </ul>
 </div>
 
 <div style="margin-top: 5%;">
-<a href="index.html" style="text-decoration: none;color: #2ecec2;"><u>Home</u></a> -> <a href="past_papers_examboard.html" style="text-decoration: none;color: #2ecec2;"><u>Past Papers</u></a> -> <a href="past_papers_edexcel.html" style="text-decoration: none;color: #2ecec2;"><u>EDEXCEL</u></a>
+<a href="index.html"><u>Home</u></a> -> <a href="past_papers_examboard.html"><u>Past Papers</u></a> -> <a href="past_papers_edexcel.html"><u>EDEXCEL</u></a>
 </div>
