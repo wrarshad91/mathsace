@@ -32,7 +32,6 @@ body {
 a:link {
   color: #2ecec2;
   text-decoration: none;
-  font-size: 20px;
 }
 
 /* visited link */
@@ -60,6 +59,23 @@ a:active {
     font-size: 1em;
 }
 
+.content {
+  background: #E6FFFB;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.search{
+    float: none;
+    background: #E6FFFB;
+  padding: 6px;
+    border-radius: 5px;
+  border: none;
+  margin-top: auto;
+  margin-right: 16px;
+  font-size: 20px;
+}
+
 </style>
 
 <header>
@@ -69,24 +85,29 @@ a:active {
     <h2><a>Quality Resources for A-level Maths</a></h2>
 </div>
 
+
+
 </header>
 
 <body>
-<div>
+  <div>
+    <input class="search" id="searchInput" type="text" placeholder="search...">
+</div>
 
-
+<div id="menu">
     <p>Welcome to Maths Ace.
      
-    Here you will find plenty of <u>free</u> and high-quality resources for learning A-level Maths. These have all been developed by an experienced maths teacher
+    Here you will find plenty of <u>free</u> and high-quality resources for learning and teaching A-level Maths. These have all been developed by an experienced maths teacher
     and examiner.
    
     I also specialise in online maths tutoring so please get in touch if you require an A-level Maths tutor.
     </p>
     <hr style="height:2px;color:black;background-color:#2ecec2"></hr>
-    <ul style="font-size:large;">
+    <ul style="font-size:24px;">
         <li><a href="index.html">Home</a></li>
         <li><a href="past_papers_examboard.html">Past Papers</a></li>
         <li><a href="revision.html">Revision</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
         <li><a href="tutoring.html">Tutoring</a></li>
         <li><a href="posts.html">Posts</a></li>
         <li><a href="contact.html">Contact</a></li>
