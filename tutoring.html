@@ -11,6 +11,7 @@
 <meta name="author" content="Maths Ace">
 </header>
 <style>
+
 body {
     margin: 40px auto;
     max-width: 650px;
@@ -22,6 +23,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+    
 /* unvisited link */
 a:link {
   color: #2ecec2;
@@ -35,8 +37,10 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color:#ffb347;
+  color:#ffb347; 
 }
+
+
 
 /* selected link */
 a:active {
@@ -54,11 +58,84 @@ a:active {
 }
 
 .content {
-  background: #E6FFFB ;
+  background: #E6FFFB;
   padding: 0px;
   border-radius: 10px;
 }
 
+.search{
+    float: none;
+    background: #E6FFFB;
+  padding: 6px;
+    border-radius: 5px;
+  border: none;
+  margin-top: auto;
+  margin-right: 16px;
+  font-size: 20px;
+}
+
+a.star-hover {
+  position: relative;
+  display: inline-block;
+}
+
+a.star-hover::after {
+  content: '♠';
+  position: absolute;
+  right: -20px;
+  opacity: 0;
+  transform: translateX(5px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  color: #ffb347;
+}
+
+a.star-hover:hover {
+  color: #ffb347;
+}
+
+a.star-hover:hover::after {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.content {
+  background: #E6FFFB;
+  padding: 0px;
+  border-radius: 10px;
+  overflow-x: auto; /* for mobile responsiveness */
+}
+
+table.striped {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Courier New', Courier, monospace;
+  color: #002222;
+  font-size: 18px;
+}
+
+table.striped th, table.striped td {
+  padding: 12px;
+  text-align: left;
+}
+
+table.striped tr:nth-child(even) {
+  background-color: #d0f7f2; /* light stripe */
+}
+
+table.striped tr:nth-child(odd) {
+  background-color: #E6FFFB; /* base */
+}
+
+table.striped th {
+  background-color: #2ecec2;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+table.striped tr:hover td {
+  background-color: #bdf0e8;
+}
 
 </style>
 
@@ -66,7 +143,7 @@ a:active {
     <a href="index.html"><img id="logo" src="logo.png" width="270" height="100"></img></a>
         <hr style="height:2px;color:black;background-color:#2ecec2"></hr>
     <a href="index.html">  ⬅ back</a>
-    <h2><a>Tutoring</a></h2>
+    <h2><a href="tutoring.html">Tutoring</a></h2>
 </div>
 
 </header>
@@ -84,7 +161,7 @@ a:active {
 ★ Fully DBS checked<br/>
     </p>
     <hr style="height:2px;color:black;background-color:#2ecec2"></hr>
-<p>You can find out more information and read further testimonials on the FirstTutors website by clicking <a href="https://www.firsttutors.com/uk/tutor/waqar.maths.5/"><u>here</u></a>.
+<p>You can find out more information and read further testimonials on the <a href="https://www.firsttutors.com/uk/">FirstTutors</a> website by clicking <a href="https://www.firsttutors.com/uk/tutor/waqar.maths.5/"><u>here</u></a>.
 <br/>
 <br/>
 If you are interested in online maths tutoring or want to find out more, please email me on
@@ -105,7 +182,7 @@ Would recommend!</i>" - Julie</p></div>
 <div class="content" style="color:#002222"><p>
 "<i>I’ve had a couple tutoring lessons with Waqar and I’m really satisfied with the level of passion
 and attention he puts in to help someone succeed. His teaching style is engaging,
-making complex concepts easy to understand.</i>" - Shahzaib</p></div>
+making complex concepts easy to understand.</i>" - Shaz</p></div>
 
 <p>⭐⭐⭐⭐⭐</p>
 <div class="content" style="color:#002222"><p>
@@ -115,4 +192,11 @@ We would highly recommend him.</i>" - Tim</p></div>
 
 <div style="margin-top: 5%;">
 <a href="index.html""><u>Home</u></a> -> <a href="tutoring.html"><u>Tutoring</u></a>
+<div style="float: right;">
+
+<a href="https://www.facebook.com/profile.php?id=61557594004774"><img src="icons8-facebook (1).svg"  width="36" height="36"></img></a>
+<a href="www.linkedin.com/in/waqar-arshad-a2137741"><img  src="icons8-linkedin (1).svg"  width="36" height="36"></img></a>
+<a href="https://x.com/mathsace1"><img  src = "icons8-x (1).svg" width="36" height="36"></img></a>
+<a href="https://www.youtube.com/@mathsacevideos"><img src = "icons8-youtube (1).svg"  width="36" height="36"></img></a>
+</div>
 </div>
